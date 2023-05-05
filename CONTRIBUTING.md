@@ -23,8 +23,18 @@ En Alimentium, seguimos una convención de nombres de ramas para mantener la con
 - Para correcciones de errores: `fix/<codigo-proyecto-en-clickup>-<id-ticket>/<nombre-descriptivo>`
 - Para tareas de mantenimiento y mejoras que no sean características ni correcciones: `chore/<codigo-proyecto-en-clickup>-<id-ticket>/<nombre-descriptivo>`
 
-Por ejemplo: `feature/PROCLI-1234/agregar-login`
+### Feature
+Indica que se introduce una nueva funcionalidad o mejora en el proyecto. Este prefijo generalmente agrega un nuevo componente, un nuevo módulo o una mejora significativa en la lógica de negocios. Estos cambios son visibles para los usuarios finales y afectan directamente la funcionalidad del software.
 
+- Ejemplo de uso en nombre rama: `feature/PROCLI-1234/agregar-login`
+- Ejemplo de uso en commit: `feat: Add search functionality to the application`
+
+### Chore
+Indica cambios que no están relacionados directamente con la funcionalidad del proyecto, como cambios en la configuración del proyecto, actualizaciones de dependencias, tareas de limpieza de código o mejoras en el proceso de construcción. Estos cambios no son visibles para los usuarios finales y no afectan la funcionalidad del software.
+
+- Ejemplo de uso en nombre rama: `chore/PROCLI-2478/update-packages-to-last-version`
+- Ejemplo de uso en commit: `chore: Update package dependencies to latest versions.`
+ 
 ## Mensajes de commit
 
 Utilizamos Conventional Commits para estandarizar nuestros mensajes de commit. Asegúrate de que tus mensajes de commit sigan este formato:
@@ -34,7 +44,7 @@ Utilizamos Conventional Commits para estandarizar nuestros mensajes de commit. A
 <body> [OPCIONAL]
 
 
-Los tipos (type) permitidos son: `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `chore`, `revert`, `mngt`.
+Los tipos (type) permitidos son: `feat`, `fix`, `docs`, `refactor`, `test`, `ci`, `chore`, `revert`, `mngt`, `wip`.
 
 En alcance (scope) puedes indicar el componente que ha cambiado. Si es un cambio que afecta a toda la aplicación o es general, puedes omitirlo
 
