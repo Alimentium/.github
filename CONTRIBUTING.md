@@ -8,7 +8,7 @@ En Alimentium, utilizamos el flujo de trabajo de GitHub Flow para el desarrollo.
 
 1. Asegúrate de tener acceso al repositorio en la organización de Alimentium.
 2. Clona el repositorio en tu máquina local.
-3. Crea una rama con un nombre descriptivo para tu tarea, siguiendo la convención de nombres que se detalla más adelante.
+3. Crea una rama a partir de la rama main, con un nombre descriptivo para tu tarea, siguiendo la convención de nombres que se detalla más adelante.
 4. Realiza tus cambios y commits siguiendo la convención de mensajes de commit (Conventional Commits).
 5. Haz push de tu rama al repositorio remoto (No se puede pushear a main directamente, esa rama está protegida).
 6. Crea un pull request en el repositorio desde tu rama a la rama dev para desplegar en DEV.
