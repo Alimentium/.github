@@ -26,6 +26,6 @@ Incluye cualquier información adicional que deba ser considerada durante la rev
 - [ ] He verificado que no hay otros PRs que resuelvan este problema o que estén relacionados.
 - [ ] He verificado que he incluido todos los cambios necesarios en la descripción y en el ticket de Clickup.
 
-Por favor, asegúrate de que la rama base de esta solicitud de extracción es la correcta antes de realizar cualquier otra acción.
+Por favor, asegúrate de que la rama base de esta pull request es la correcta antes de realizar cualquier otra acción.
 
 - [ ] ¿La rama base es la correcta? [nombre de la rama base]
