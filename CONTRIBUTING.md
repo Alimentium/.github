@@ -14,6 +14,7 @@ En Alimentium, utilizamos el flujo de trabajo de GitHub Flow para el desarrollo.
 6. Crea un pull request en el repositorio desde tu rama a la rama dev para desplegar en DEV.
 7. Si se valida en DEV crea pull request desde tu rama a la rama staging para desplegar en Staging.
 8. Si se valida en Staging crea pull request desde tu rama a la rama main.
+9. El reviewer de la PR una vez mergeados los cambios a main, se debe borrar la rama. 
 
 ## Convención de nombres de ramas
 
