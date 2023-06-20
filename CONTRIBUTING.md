@@ -20,20 +20,20 @@ En Alimentium, utilizamos el flujo de trabajo de GitHub Flow para el desarrollo.
 
 En Alimentium, seguimos una convención de nombres de ramas para mantener la consistencia y facilitar la identificación del propósito de cada rama. Utiliza la siguiente estructura al nombrar tus ramas:
 
-- Para características nuevas: `feature/<codigo-proyecto-en-clickup>-<id-ticket>/<nombre-descriptivo>`
-- Para correcciones de errores: `fix/<codigo-proyecto-en-clickup>-<id-ticket>/<nombre-descriptivo>`
-- Para tareas de mantenimiento y mejoras que no sean características ni correcciones: `chore/<codigo-proyecto-en-clickup>-<id-ticket>/<nombre-descriptivo>`
+- Para características nuevas: `feature/<codigo-proyecto-en-clickup>-<id-ticket>-<nombre-cliente>-<nombre-descriptivo>`
+- Para correcciones de errores: `fix/<codigo-proyecto-en-clickup>-<id-ticket>-<nombre-cliente>-<nombre-descriptivo>`
+- Para tareas de mantenimiento y mejoras que no sean características ni correcciones: `chore/<codigo-proyecto-en-clickup>-<id-ticket>-<nombre-cliente>-<nombre-descriptivo>`
 
 ### Feature
 Indica que se introduce una nueva funcionalidad o mejora en el proyecto. Este prefijo generalmente agrega un nuevo componente, un nuevo módulo o una mejora significativa en la lógica de negocios. Estos cambios son visibles para los usuarios finales y afectan directamente la funcionalidad del software.
 
-- Ejemplo de uso en nombre rama: `feature/PROCLI-1234/agregar-login`
+- Ejemplo de uso en nombre rama: `feature/PROCLI-1234-aemecore-agregar-login`
 - Ejemplo de uso en commit: `feat: Add search functionality to the application`
 
 ### Chore
 Indica cambios que no están relacionados directamente con la funcionalidad del proyecto, como cambios en la configuración del proyecto, actualizaciones de dependencias, tareas de limpieza de código o mejoras en el proceso de construcción. Estos cambios no son visibles para los usuarios finales y no afectan la funcionalidad del software.
 
-- Ejemplo de uso en nombre rama: `chore/PROCLI-2478/update-packages-to-last-version`
+- Ejemplo de uso en nombre rama: `chore/PROCLI-2478-aldi-update-packages-to-last-version`
 - Ejemplo de uso en commit: `chore: Update package dependencies to latest versions.`
  
 ## Mensajes de commit
