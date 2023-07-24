@@ -6,7 +6,7 @@ Por favor, proporciona una descripción detallada de los cambios realizados en e
 
 Agrega el enlace al ticket de Clickup relacionado con este pull request. Asegúrate de reemplazar `<ticket-id>` con el ID del ticket real.
 
-[CU-<ticket-id>](https://app.clickup.com/t/<ticket-id>)
+[CU-<ticket-id>](https://app.clickup.com/t/36671967/<ticket-id>)
 
 ### Cambios realizados
 
